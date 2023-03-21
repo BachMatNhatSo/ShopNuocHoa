@@ -36,7 +36,7 @@
 </header>
 <?php include_once ("header2_index.php");?>
         <!---- Nội dung---->
-        <h3 align="center">NƯỚC HOA BỘ</h3>
+        <h3 align="center"> HOA BỘ</h3>
 
         <body>
 

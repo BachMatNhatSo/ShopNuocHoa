@@ -10,12 +10,7 @@ if(isset($_SESSION['cart']) && $_SESSION['cart']!=null)
     foreach ($_SESSION['cart'] as $list)
         $SLuong+= $list['qty'];
 }
-/**
- * Created by PhpStorm.
- * User: Nguyen Nhipuka
- * Date: 17-Apr-17
- * Time: 21:14
- */
+
 echo "  <header class=\"wrapper clearfix\">
 
     <div id=\"banner\">
@@ -26,17 +21,17 @@ echo "  <header class=\"wrapper clearfix\">
     <nav id=\"topnav\" role=\"navigation\" >
         <div class=\"menu-toggle\">Menu</div>
         <ul class=\"srt-menu\" id=\"menu-main-navigation\">
-            <li class=\"current\"><a href=\"index.php?index=1\">HOME PAGE</a></li>
+            <li class=\"current\"><a href=\"index.php?index=1\">Trang Chủ</a></li>
             <li><a href=\"#\">NƯỚC HOA </a>
                 <ul>
-                <li><a href=\"../site/loc_nuoc_hoa_nam.php\">NƯỚC HOA NAM</a> </li>
-                <li><a href=\"../site/loc_nuoc_hoa_nu.php\">NƯỚC HOA NỮ</a> </li>
-                <li><a href=\"../site/loc_nuoc_hoa_unisex.php\">NƯỚC HOA UNISEX</a></li>
-                 <li><a href=\"../site/loc_nuoc_hoa_bo.php\">NƯỚC HOA BỘ</a></li>
+                <li><a href=\"../site/loc_hoa_nam.php\">HOA NAM</a> </li>
+                <li><a href=\"../site/loc_hoa_nu.php\">HOA NỮ</a> </li>
+                <li><a href=\"../site/loc_hoa_unisex.php\">HOA UNISEX</a></li>
+                 <li><a href=\"../site/loc_hoa_bo.php\">HOA BỘ</a></li>
                 </ul>
             </li>
             <li>
-                <a href=\"../site/ds_baiviet.php\">TIN TỨC NƯỚC HOA</a> 
+                <a href=\"../site/ds_baiviet.php\">TIN TỨC</a> 
             </li>";
 if(isset($_SESSION['HoTenK']))
 {

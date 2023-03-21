@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Nguyen Nhipuka
- * Date: 17-Apr-17
- * Time: 20:24
- */?>
+?>
 <!DOCTYPE html>
 <html>
 
